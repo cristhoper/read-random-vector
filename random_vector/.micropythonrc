@@ -1,0 +1,23 @@
+{
+  "upload": {
+    "port": "/dev/ttyUSB0",
+    "baud": 115200
+  },
+  "serial": {
+    "port": "/dev/ttyUSB0",
+    "baud": 115200
+  },
+  "ignore": {
+    "extensions": [
+      ".micropythonrc"
+    ],
+    "directories": [
+      "plot_data",
+      ".vscode"
+    ]
+  },
+  "tools": {
+    "ampy": "/home/cristhoper/.local/bin/ampy",
+    "rshell": "/home/cristhoper/.local/bin/rshell"
+  }
+}
